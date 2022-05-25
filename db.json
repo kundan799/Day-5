@@ -1,7 +1,70 @@
 {
-   "todos":[
-       {"id":1, "value":"locol todos 1", "isComplated":true},
-       {"id":2, "value":"locol todos 2", "isComplated":true},
-       {"id":3, "value":"locol todos 3", "isComplated":true}
-   ]
+  "todos": [
+    {
+      "id": 1,
+      "text": "locol todos 1",
+      "isComplated": true
+    },
+    {
+      "id": 2,
+      "text": "locol todos 2",
+      "isComplated": true
+    },
+    {
+      "id": 3,
+      "text": "locol todos 3",
+      "isComplated": true
+    },
+    {
+      "text": "kj",
+      "isComplated": false,
+      "id": 4
+    },
+    {
+      "text": "",
+      "isComplated": false,
+      "id": 5
+    },
+    {
+      "text": "kundan",
+      "isComplated": false,
+      "id": 6
+    },
+    {
+      "text": "aman",
+      "isComplated": false,
+      "id": 7
+    },
+    {
+      "text": "",
+      "isComplated": false,
+      "id": 8
+    },
+    {
+      "text": "manish",
+      "isComplated": false,
+      "id": 9
+    },
+    {
+      "text": "subham",
+      "isComplated": false,
+      "id": 10
+    },
+    {
+      "text": "avinash",
+      "isComplated": false,
+      "id": 11
+    },
+    {
+      "text": "siya",
+      "isComplated": false,
+      "id": 12
+    },
+    {
+      "text": "hi",
+      "isComplated": false,
+      "id": 13
+    }
+    
+  ]
 }
