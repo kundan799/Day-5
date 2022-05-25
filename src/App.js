@@ -1,26 +1,20 @@
 
-import React,{useEffect, useState} from 'react';
+import React from 'react';
 import './App.css';
+import Todo from './component/Todo';
 
 
 function App() {
-  const [count1,setcount1]=useState(0)
-  const [count2,setcount2]=useState(0)
-  useEffect(()=>{
-    console.log("I AM CLICKED")
-    alert("i am kundan")
-
-  },[])
+  // fetch('http://localhost:8080/todos')
+  // .then(response => response.json())
+  // .then(data => console.log(data));
+  
+  
   return (
     <>
-    <div className="App" onClick={()=>(setcount1(count1+1))}>
-      counter 1:{count1}
-    </div>
-    <div className="App" onClick={()=>(setcount2(count2+1))}>
-      counter 2:{count2}
-    </div>
-    
-   
+    <div className="App" >
+    <Todo/>
+    </div> 
      </>
   );
 }
